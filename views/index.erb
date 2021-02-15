@@ -1,7 +1,11 @@
 <% if @catname %>
 <h1>My name is <%= @catname %></h1>
-<h2>I am an <%= @adorable%> <%= @color %> cat </h2>
+<h2>I am a <%= @color %> cat </h2>
 <% end %>
+<form action="/named-cat">
+  <input type="text" name="name">
+  <input type="submit" value="Submit">
+</form>
 <div style='border: 3px dashed red'>
  <img src='https://product-image.juniqe-production.juniqe.com/media/catalog/product/seo-cache/x800/18/22/18-22-301P__CENTER/Sneaky-Cat-Laura-Graves-Canvas-Print.jpg'>
 </div>
