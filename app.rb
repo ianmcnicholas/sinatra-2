@@ -12,5 +12,6 @@ get '/secret' do
 end
 
 get '/cat' do
+  @catname = %w(Amigo Misty Almond).sample
   erb(:index)
 end
