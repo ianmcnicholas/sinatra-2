@@ -12,5 +12,7 @@ get '/secret' do
 end
 
 get '/cat' do
-  "<img src='http://bit.ly/1eze8aE'>"
+  "<div style='border: 3px dashed red'>
+   <img src='https://product-image.juniqe-production.juniqe.com/media/catalog/product/seo-cache/x800/18/22/18-22-301P__CENTER/Sneaky-Cat-Laura-Graves-Canvas-Print.jpg'>
+ </div>"
 end
